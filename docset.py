@@ -81,7 +81,7 @@ def create_docset_entries(reporoot, cursor):
             PREFIX_TO_TYPE = {
                 "ne": "Enum",
                 "nf": "Function",
-                "nn": "Method",
+                "nn": "Interface",
                 "ns": "Struct"
             }
             prefix = source.split('-')[0]
